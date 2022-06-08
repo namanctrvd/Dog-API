@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog API</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <button id="dog-image-btn" style="margin:19px;">Fetch Image</button>
 
-    <div id="image-container" style="margin: 20px;">
-        <img id="dog-image">
+
+    <div class="container-1">
+        <h2>Dog Generator</h2>
+        <div class="flex-box-container-1">
+            <button class="btn btn-outline-primary" id="dog-image-btn">Generate Dog</button>
+        </div>
+        <div class="flex-box-container-1">
+            <img id="dog-image">
+        </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
