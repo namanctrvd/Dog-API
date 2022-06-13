@@ -2,4 +2,4 @@
 
 ### Learning API and JSON 
 
-It generates random dogs image using dog API.
+It generates random dog images using dog API.
